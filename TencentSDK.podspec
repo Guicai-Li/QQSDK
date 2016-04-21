@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Guicai-Li/TencentSDK.git", :tag => "v#{s.version}" }
 
-  s.source_files = "TencentSDK/TencentOpenAPI.framework/Headers"
+  s.source_files = "TencentSDK/TencentOpenAPI.framework/Headers/*.{h}"
   s.resource = "TencentSDK/TencentOpenApi_IOS_Bundle.bundle"
   s.vendored_frameworks = "TencentSDK/TencentOpenAPI.framework"
   s.libraries =  "libiconv", "libsqlite3", "libstdc++", "libz"

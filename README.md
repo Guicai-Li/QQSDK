@@ -8,7 +8,7 @@
 ---
 
 ###如何使用？
-pod 'WeChatSDK', :git => 'https://github.com/Guicai-Li/TencentSDK.git'
+pod 'TencentSDK', :git => 'https://github.com/Guicai-Li/TencentSDK.git'
 
 
 

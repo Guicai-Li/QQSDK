@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.libraries =  "iconv", "sqlite3", "stdc++", "z"
   s.frameworks = "Security", "SystemConfiguration", "CoreGraphics","CoreTelephony"
 
+  s.xcconfig            = { "FRAMEWORK_SEARCH_PATHS" => "$(inherited)" }
   s.requires_arc = true
 
 end

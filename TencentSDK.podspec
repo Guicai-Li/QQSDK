@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TencentSDK"
-  s.version      = "2.9.5"
+  s.version      = "3.1.0"
   s.summary      = "官方腾讯开放平台 iOS SDK"
 
   s.description  = "腾讯开放平台为广大开发者提供了SDK包，辅助开发者快速接入QQ登录、支付、社交渠道等功能。"
